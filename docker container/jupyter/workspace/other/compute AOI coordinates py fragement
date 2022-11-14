@@ -1,0 +1,7 @@
+# compute AOI coordinates
+# aois = pd.read_csv("aois.csv")
+# aois["xStart"] = aois["p1x"]
+# aois["yStart"] = aois["p1y"]
+# aois["width"] = aois["p2x"]-aois["p1x"]
+# aois["height"] = aois["p2y"]-aois["p1y"]
+# aois.to_csv("aois_definition.csv")
