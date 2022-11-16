@@ -31,7 +31,7 @@ mainProcessing <- function(params,data) {
     # Parse as data.table
     data <- as.data.table(data)
 
-    # Get eyetracker data
+    # Set NA to -1 values 
     data[data == -1, ] <- NA
 
     # Compute the average time difference between timestamps for further processing based on the 100 first samples
