@@ -167,6 +167,9 @@ USER ${NB_UID}
 RUN pip install requests
 RUN pip install pandas
 RUN pip install matplotlib
+RUN pip install plotly
+RUN pip install networkx
+RUN pip install scipy
 
 COPY workspace "${HOME}"
 
