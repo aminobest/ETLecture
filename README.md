@@ -1,6 +1,6 @@
-# Pipeline for Processing Eye-tracking data
+# Pipeline for Processing Eye-tracking Data
 
-## Notebooks and procedures
+## Notebooks and Procedures
 
 1. Gaze Projections and AOIs Mapping: 
 	1.1 Gaze Data import and computation of X and Y gaze coordinates
@@ -17,7 +17,7 @@
 5. AOI Visits
 	5.1 Identify Dwells
 6. AOI Sequence Charts
-7. Fixation, Saccade, Dwell Measures (See documentation/ETmetrics.csv for metrics and definions)
+7. Fixation, Saccade, Dwell Measures (See [documentation/ETmetrics.csv](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/documentation/ETmetrics.csv) for metrics and definions)
 	7.1 Fixation measures at stimulus and AOI levels
 	7.2 Saccade measures at stimulus and AOI levels
 	7.3 Dwell measures
@@ -47,3 +47,21 @@ git clone https://github.com/aminobest/ETLecture.git
 cd ETLecture
 docker compose up
 ```
+
+Once the installation of the dependencies is over, a link to the jupyter lab web-application (starting with https://127.0.0.1...) will be showned in the terminal (cf. screnshot below)
+
+![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/jupyterLinkExample.png?raw=true)
+
+
+## Use
+
+Browse to "ETLecture" and start the docker instance using the following command
+
+```powershell
+docker compose up
+```
+
+ A new link to the jupyter lab web-application (starting with https://127.0.0.1...) will be showned in the terminal (similar to the screenshot above)
+
+
+
