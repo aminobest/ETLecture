@@ -48,7 +48,7 @@ cd ETLecture
 docker compose up
 ```
 
-Once the installation of the dependencies is over, a link to the jupyter lab web-application (starting with https://127.0.0.1...) will be showned in the terminal (cf. Figure below)
+Once the installation of the dependencies is over, a link to the jupyter lab web-application (starting with https://127.0.0.1...) will be showned in the terminal (cf. screnshot below)
 
 ![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/jupyterLinkExample.png?raw=true)
 
@@ -61,8 +61,7 @@ Browse to "ETLecture"  and start the docker instance using the following command
 docker compose up
 ```
 
- A new link to the jupyter lab web-application (starting with https://127.0.0.1...) will be showned in the terminal (cf. Figure below)
+ A new link to the jupyter lab web-application (starting with https://127.0.0.1...) will be showned in the terminal (similar to the screenshot above)
 
-![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/jupyterLinkExample.png?raw=true)
 
 
