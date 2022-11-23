@@ -5,6 +5,8 @@ import numpy
 import pandas as pd
 import math 
 
+
+
 ANNOTATION_DISTANCE_THRESHOLD = 40
 ANNOTATION_DISTANCE_INCREMENT = 40
 
