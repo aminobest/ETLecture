@@ -134,7 +134,7 @@ RUN set -x && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
 
-EXPOSE 8888
+EXPOSE 8889
 
 # Configure container startup
 ENTRYPOINT ["tini", "-g", "--"]
