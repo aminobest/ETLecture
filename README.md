@@ -17,7 +17,7 @@
 5. AOI Visits
 	5.1 Identify Dwells
 6. AOI Sequence Charts
-7. Fixation, Saccade, Dwell Measures (See documentation/ETmetrics.csv for metrics and definions)
+7. Fixation, Saccade, Dwell Measures (See [documentation/ETmetrics.csv](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/documentation/ETmetrics.csv) for metrics and definions)
 	7.1 Fixation measures at stimulus and AOI levels
 	7.2 Saccade measures at stimulus and AOI levels
 	7.3 Dwell measures
