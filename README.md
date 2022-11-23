@@ -30,6 +30,8 @@
 
 ![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/pipeLineBPMNModel.png?raw=true)
 
+(click on the image for better quality)
+
 ## Installation
 
 ### Prerequisites
@@ -52,6 +54,7 @@ Once the installation of the dependencies is over, a link to the jupyter lab web
 
 ![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/jupyterLinkExample.png?raw=true)
 
+Copy this link and paste it in your browser
 
 ## Use
 
@@ -63,5 +66,9 @@ docker compose up
 
  A new link to the jupyter lab web-application (starting with https://127.0.0.1...) will be showned in the terminal (similar to the screenshot above)
 
+
+## Notes
+
+- To update a notebook, you should make a copy of it (Using File menu -> Save notebook as -> provide a new name)
 
 
