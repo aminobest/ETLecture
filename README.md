@@ -28,7 +28,7 @@
 ## Pipeline Flow
 
 
-(![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/pipeLineBPMNModel.png?raw=true)
+![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/pipeLineBPMNModel.png?raw=true)
 
 ## Installation
 
