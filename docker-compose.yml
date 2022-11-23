@@ -4,14 +4,14 @@ services:
     build:
       context: './R'
       dockerfile: Dockerfile
-    container_name: r-container
+    container_name: rContainer
     #ports:
     #  - '6789:6789'  
   jupyter:
     build:
       context: './jupyter'
       dockerfile: Dockerfile
-    container_name: Jupyter-container
+    container_name: JupyterContainer
     links: 
       - "r:rserver"
     ports:
