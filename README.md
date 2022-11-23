@@ -54,6 +54,7 @@ Once the installation of the dependencies is over, a link to the jupyter lab web
 
 ![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/jupyterLinkExample.png?raw=true)
 
+Copy this link and paste it in your browser
 
 ## Use
 
