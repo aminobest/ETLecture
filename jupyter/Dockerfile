@@ -173,4 +173,6 @@ RUN pip install scipy
 
 COPY workspace "${HOME}"
 
+RUN mkdir "${HOME}"/data/
+
 WORKDIR "${HOME}"
