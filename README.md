@@ -1,6 +1,6 @@
-# Pipeline for Processing Eye-tracking data
+# Pipeline for Processing Eye-tracking Data
 
-## Notebooks and procedures
+## Notebooks and Procedures
 
 1. Gaze Projections and AOIs Mapping: 
 	1.1 Gaze Data import and computation of X and Y gaze coordinates
@@ -55,7 +55,7 @@ Once the installation of the dependencies is over, a link to the jupyter lab web
 
 ## Use
 
-Browse to "ETLecture"  and start the docker instance using the following command
+Browse to "ETLecture" and start the docker instance using the following command
 
 ```powershell
 docker compose up
