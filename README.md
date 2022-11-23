@@ -27,7 +27,8 @@
 
 ## Pipeline Flow
 
-[![](https://raw.githubusercontent.com/aminobest/ETLecture/main/docker%20container/jupyter/workspace/pipeLineBPMNModel.png?token=GHSAT0AAAAAABYEFMOPLPMOIDKWO4SKRNCWY3552HA)](https://raw.githubusercontent.com/aminobest/ETLecture/main/docker%20container/jupyter/workspace/pipeLineBPMNModel.png?token=GHSAT0AAAAAABYEFMOPLPMOIDKWO4SKRNCWY3552HA)
+
+![alt text](![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/pipeLineBPMNModel.png?raw=true))
 
 ## Installation
 
