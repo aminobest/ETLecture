@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  r:
+    build:
+      context: './R'
+      dockerfile: Dockerfile
+    container_name: r-container
+    #ports:
+    #  - '6789:6789'  
+  jupyter:
+    build:
+      context: './jupyter'
+      dockerfile: Dockerfile
+    container_name: Jupyter-container
+    links: 
+      - "r:rserver"
+    ports:
+      - '8888:8888' 

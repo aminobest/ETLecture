@@ -1,9 +1,0 @@
-# Construct graph
-#G = nx.Graph()
-#G = nx.from_pandas_edgelist(data, 'TransitionSource', 'TransitionTarget',create_using=nx.DiGraph())
-#figure(figsize=(10, 8))
-#pos = nx.spring_layout(G, k=5, iterations=100)
-# k controls the distance between the nodes and varies between 0 and 1
-# iterations is the number of times simulated annealing is run
-# default k=0.1 and iterations=50
-#nx.draw(G, pos, with_labels=True)

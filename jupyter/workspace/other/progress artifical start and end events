@@ -1,0 +1,27 @@
+#Keep only visits within the AoisToConsider
+data = data[data['VisitedAOI'].isin(AoisToConsider)]
+
+
+# Add artificial start and end visits for each participant data
+
+ParticipantDataGroups = data.groupby('Respondent')
+for participant, participantData in ParticipantDataGroups:
+    
+    #artificial start visit
+    start = pd.DataFrame(['start'], columns=['VisitedAOI'])
+    participantData = pd.concat([start, participantData])
+
+    #artificial end visit 
+    end = pd.DataFrame(['end'], columns=['VisitedAOI'])
+    participantData = pd.concat([participantData, end])
+
+#Reset index
+data = data.reset_index(drop=True)
+
+
+data = data.groupby('Respondent').apply(lambda group: group.append({'VisitedAOI':'start'},ignore_index=True)).reset_index(drop=True)
+data = data.groupby('Respondent').apply(lambda group: group.insert(0,{'VisitedAOI':'start'})).reset_index(drop=True)
+
+
+
+
