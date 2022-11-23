@@ -30,6 +30,8 @@
 
 ![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/pipeLineBPMNModel.png?raw=true)
 
+(click on the image for better quality)
+
 ## Installation
 
 ### Prerequisites
