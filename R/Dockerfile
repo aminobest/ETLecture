@@ -1,5 +1,6 @@
-FROM rstudio/plumber
+FROM rocker/r-bspm:22.04
 WORKDIR .
+RUN R -e "install.packages('plumber',,repos='http://cran.rstudio.com/', Ncpus=16)"
 RUN R -e "install.packages('data.table',,repos='http://cran.rstudio.com/', Ncpus=16)"
 RUN R -e "install.packages('arrow', repos='http://cran.rstudio.com/', Ncpus=16)"
 RUN R -e "install.packages('zoo', repos='http://cran.rstudio.com/', Ncpus=16)"
