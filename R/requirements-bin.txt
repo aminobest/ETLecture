@@ -1,3 +1,0 @@
-r-cran-plumber
-r-cran-data.table
-r-cran-zoo

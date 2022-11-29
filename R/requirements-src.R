@@ -1,1 +1,0 @@
-install.packages("arrow", dependencies=TRUE)
