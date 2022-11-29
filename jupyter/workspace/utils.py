@@ -39,19 +39,18 @@ def generateRandomColors(nColors):
     return colors
 
 
-def pointInRect(px,py,x1,y1,w,h):
+def pointInRect(px,py,x1,y1,x2,y2):
 	""" Method Description: check if a point is within a rectrangle
 	    Method Arguments: 
 	            px: point x cooridinate value
 	            py: point y cooridinate value
-	            x1: retangle starting point in x coordinate 
-	            y1: retangle starting point om y coordinate 
-	            w: retangle width
-	            h: rectangle height
+	            x1: retangle starting point on x coordinate 
+	            y1: retangle starting point on y coordinate 
+	            x2: retangle ending point on x coordinate 
+	            y2: retangle ending point on y coordinate 
 	     Method Return: 0 or 1 (0: gaze point is not in AOI, 1: gaze point is within AOI)"""
 
-	x2 = x1+w
-	y2 = y1+h
+
 	return 1 if px >= x1 and px <= x2 and py >= y1 and py <= y2 else 0; 
 
 
