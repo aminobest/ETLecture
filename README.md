@@ -3,9 +3,9 @@
 ## Notebooks and Procedures
 
 1. Gaze Projections and AOIs Mapping: 
-	1.1 Gaze Data import and computation of X and Y gaze coordinates  
-	1.2  Data exploration and visual quality assessment (projecting gaze points on AOIs). 
-	1.3 Assign gaze points to AOIs. 
+	1.1 Gaze Data import and computation of X and Y gaze coordinates <br />
+	1.2  Data exploration and visual quality assessment (projecting gaze points on AOIs) <br /> 
+	1.3 Assign gaze points to AOIs <br />
 	
 2.  Event Detection. 
 	2.1 Oculomotor event detection (i.e., Fixations and saccades). 
