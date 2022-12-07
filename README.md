@@ -66,3 +66,14 @@ docker compose up
 
  A new link to the jupyter lab web-application (starting with https://127.0.0.1:8888/lab?token=) will be showned in the terminal (similar to the screenshot above)
 
+## Update notebooks
+
+Browse to "ETLecture" and run the following
+
+```powershell
+git pull
+```
+
+```powershell
+docker compose up --build
+```
