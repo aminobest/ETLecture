@@ -13,33 +13,33 @@
 	*  Data exploration and visual quality assessment (projecting gaze points on AOIs)
 	* Assign gaze points to AOIs 
 	
-2.  Event Detection. 
-	* Oculomotor event detection (i.e., Fixations and saccades). 
+2.  Event Detection
+	* Oculomotor event detection (i.e., Fixations and saccades)
 
-3. Fixation, Scan-path, Heatmap plots. 
-	* Fixations plots. 
-	* Scan-path plots. 
-	* Heatmap plots. 
+3. Fixation, Scan-path, Heatmap plots
+	* Fixations plots
+	* Scan-path plots
+	* Heatmap plots
 
-4.  Mapping Fixations and Saccades to AOIs. 
-	* Mapping Fixations and Saccades to AOIs. 
+4.  Mapping Fixations and Saccades to AOIs
+	* Mapping Fixations and Saccades to AOIs
 
-5. AOI Visits. 
-	* Identify Dwells. 
-
-
-6. AOI Sequence Charts. 
+5. AOI Visits
+	* Identify Dwells
 
 
-7. Fixation, Saccade, Dwell Measures (See [documentation/ETmetrics.csv]. 
-(https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/documentation/ETmetrics.csv) for metrics and definions). 
-	* Fixation measures at stimulus and AOI levels. 
-	* Saccade measures at stimulus and AOI levels. 
-	* Dwell measures. 
+6. AOI Sequence Charts
+
+
+7. Fixation, Saccade, Dwell Measures (See [documentation/ETmetrics.csv] 
+(https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/documentation/ETmetrics.csv) for metrics and definions) 
+	* Fixation measures at stimulus and AOI levels
+	* Saccade measures at stimulus and AOI levels
+	* Dwell measures
 	
-8. Transition Matrix and Markov Model. 
-	* Identify transitions (including self-transitions e.g., transitions from AOI1 to AOI1). 
-	* Identify transitions (with no self-transitions). 
+8. Transition Matrix and Markov Model
+	* Identify transitions (including self-transitions e.g., transitions from AOI1 to AOI1) 
+	* Identify transitions (with no self-transitions)
 
 
 
