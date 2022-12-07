@@ -1,5 +1,11 @@
 # Pipeline for Processing Eye-tracking Data
 
+## Overview
+
+![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/pipeLineBPMNModel.png?raw=true)
+
+(click on the image for better quality)
+
 ## Notebooks and Procedures
 
 1. Gaze Projections and AOIs Mapping: 
@@ -35,12 +41,7 @@
 	* Identify transitions (including self-transitions e.g., transitions from AOI1 to AOI1). 
 	* Identify transitions (with no self-transitions). 
 
-## Pipeline Flow
 
-
-![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/workspace/pipeLineBPMNModel.png?raw=true)
-
-(click on the image for better quality)
 
 ## Installation
 
