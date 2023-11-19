@@ -4,7 +4,8 @@ import random
 import numpy
 import pandas as pd
 import math 
-
+import os
+import json
 
 
 ANNOTATION_DISTANCE_THRESHOLD = 40
@@ -39,19 +40,20 @@ def generateRandomColors(nColors):
     return colors
 
 
-def pointInRect(px,py,x1,y1,x2,y2):
+def pointInRect(taskNameStimulus,px,py,taskNameAOI,x1,y1,x2,y2):
 	""" Method Description: check if a point is within a rectrangle
 	    Method Arguments: 
+	    		taskNameStimulus: SourceStimuliName in iMotions log
 	            px: point x cooridinate value
 	            py: point y cooridinate value
+	            taskNameAOI: task name in aois log
 	            x1: retangle starting point on x coordinate 
 	            y1: retangle starting point on y coordinate 
 	            x2: retangle ending point on x coordinate 
 	            y2: retangle ending point on y coordinate 
 	     Method Return: 0 or 1 (0: gaze point is not in AOI, 1: gaze point is within AOI)"""
 
-
-	return 1 if px >= x1 and px <= x2 and py >= y1 and py <= y2 else 0; 
+	return 1 if taskNameStimulus==taskNameAOI and px >= x1 and px <= x2 and py >= y1 and py <= y2 else 0; 
 
 
 
@@ -105,10 +107,10 @@ def identifyTransition(data,rowIndex):
 
 	# check that the last row is not reached yet
 	if rowIndex<data.shape[0]-1:
-		# check that the participant is the same
-		if data.iloc[rowIndex]['Respondent']==data.iloc[rowIndex+1]['Respondent']:
-			return pd.Series([data.iloc[rowIndex]['Respondent'],data.iloc[rowIndex]['VisitedAOI'], data.iloc[rowIndex+1]['VisitedAOI']]) 
-	return pd.Series([numpy.nan,numpy.nan,numpy.nan]) 
+		# check that the participant and task are the same
+		if data.iloc[rowIndex]['Respondent']==data.iloc[rowIndex+1]['Respondent'] and data.iloc[rowIndex]['SourceStimuliName']==data.iloc[rowIndex+1]['SourceStimuliName']:
+			return pd.Series([data.iloc[rowIndex]['Respondent'],data.iloc[rowIndex]['SourceStimuliName'],data.iloc[rowIndex]['VisitedAOI'], data.iloc[rowIndex+1]['VisitedAOI']]) 
+	return pd.Series([numpy.nan,numpy.nan,numpy.nan,numpy.nan]) 
 
 
 
@@ -183,7 +185,6 @@ def avoidAnnotationOverlap(x0,y0,index,aois):
 			aois.at[index, 'annotationY'] = y0
 
 	return (x0, y0)
-
 
 
 
