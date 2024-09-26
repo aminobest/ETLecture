@@ -6,7 +6,8 @@ services:
       dockerfile: Dockerfile
     container_name: rContainer
     #ports:
-      #- '6789:6789'  
+      #- '6789:6789' 
+      restart: always
   jupyter:
     build:
       context: './jupyter'
@@ -15,4 +16,5 @@ services:
     links: 
       - "r:rserver"
     ports:
-     - '8888:8888' 
+     - '8888:8888'
+    restart: always
