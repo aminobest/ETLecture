@@ -61,7 +61,7 @@ cd ETLecture
 docker compose up --build
 ```
 
-The build process can take up to 10-15 mins, once it's over, a link to the jupyter lab web-application (starting with https://127.0.0.1:8888/lab?token=) will be showned in the terminal (cf. screnshot below)
+The build process can take some minutes, once it's over, a link to the jupyter lab web-application (starting with https://127.0.0.1:8888/lab?token=) will be showned in the terminal (cf. screnshot below)
 
 ![alt text](https://github.com/aminobest/ETLecture/blob/main/jupyter/jupyterLinkExample.png?raw=true)
 
