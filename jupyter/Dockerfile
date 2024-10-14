@@ -91,7 +91,7 @@ WORKDIR /workspace
 COPY --chown=jovyan workspace /workspace
 
 
-RUN mkdir /workspace/data/
+RUN mkdir /workspace/notebooks/data/
 
 
 
