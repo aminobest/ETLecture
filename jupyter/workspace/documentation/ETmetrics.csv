@@ -1,19 +1,30 @@
 Measure,Type,Explanation,Notebook
-Dwell Time (in milliseconds),Position measure,"For how long, measuring from AOI entry to exist, did gaze remain inside the AOI? (Holmqvist 2010, Page 520)",5. AOI Visits
+Dwell Time,Position measure,"For how long, measuring from AOI entry to exist, did gaze remain inside the AOI? (Holmqvist 2010, Page 520)",5. AOI Visits
 Number of Fixations in Dwell,Numerosity measure,How many fixations occured from AOI entry to exist?,5. AOI Visits
 Number of Saccades in Dwell,Numerosity measure,How many saccades occured from AOI entry to exist?,5. AOI Visits
 Number of Fixations,Numerosity measure,"How many fixations landed over the stimulus or over a particular area of interest? (Holmqvist 2010, Page 533)","7. Fixation, Saccade, Dwell Measures"
-Total Fixation Duration  (in milliseconds),Position measure,"The total duration of the fixations inside an AOI or over the entire stimulus (Tobii Pro Lab, User Manual, V1.194, Page 192)","7. Fixation, Saccade, Dwell Measures"
-Average Fixation Duration  (in milliseconds),Position measure,"The average duration of the fixations inside an AOI or over the entire stimulus (Tobii Pro Lab, User Manual, V1.194, Page 192)","7. Fixation, Saccade, Dwell Measures"
-Time to First Fixation  (in milliseconds),Position measure,The time it takes the participant to make a first fixation on an AOI,"7. Fixation, Saccade, Dwell Measures"
+Total Fixation Duration,Position measure,"The total duration of the fixations inside an AOI or over the entire stimulus (Tobii Pro Lab, User Manual, V1.194, Page 192)","7. Fixation, Saccade, Dwell Measures"
+Average Fixation Duration,Position measure,"The average duration of the fixations inside an AOI or over the entire stimulus (Tobii Pro Lab, User Manual, V1.194, Page 192)","7. Fixation, Saccade, Dwell Measures"
+Minimum Fixation duration,Position measure,The duration of the shortest fixation inside an AOI or over the entire stimulus,"7. Fixation, Saccade, Dwell Measures"
+Maximum Fixation duration,Position measure,The duration of the longest fixation inside an AOI or over the entire stimulus,"7. Fixation, Saccade, Dwell Measures"
 Number of Saccades,Numerosity measures,"How many saccades occured over the stimulus or over a particular area of interest? (Holmqvist 2010, Page 533)","7. Fixation, Saccade, Dwell Measures"
-Total Saccade duration  (in milliseconds),Movement measures ,"The total duration of the saccades inside an AOI or over the entire stimulus (Saccade duration: Holmqvist 2010, Page 533)","7. Fixation, Saccade, Dwell Measures"
-Average Saccade duration  (in milliseconds),Movement measures ,"The average duration of the saccades inside an AOI or over the entire stimulus (Saccade duration: Holmqvist 2010, Page 533)","7. Fixation, Saccade, Dwell Measures"
+Total Saccade duration,Movement measures ,"The total duration of the saccades inside an AOI or over the entire stimulus (Saccade duration: Holmqvist 2010, Page 533)","7. Fixation, Saccade, Dwell Measures"
+Average Saccade duration,Movement measures ,"The average duration of the saccades inside an AOI or over the entire stimulus (Saccade duration: Holmqvist 2010, Page 533)","7. Fixation, Saccade, Dwell Measures"
 Total Saccade Amplitude,Movement measures ,"The total distance traversed by saccades inside an AOI or over the entire stimulus (Saccade amplitude: Holmqvist 2010, Page 420)","7. Fixation, Saccade, Dwell Measures"
 Average Saccade Amplitude,Movement measures ,"The average distance traversed by saccades inside an AOI or over the entire stimulus (Saccade amplitude: Holmqvist 2010, Page 420)","7. Fixation, Saccade, Dwell Measures"
 Average Peak Velocity of Saccades,Movement measures ,"The average peak velocity of the saccades occured inside an AOI or over the entire stimulus (Saccadic Velocity: Holmqvist 2010, Page 440)","7. Fixation, Saccade, Dwell Measures"
-Total Dwell Time  (in milliseconds),Position measure,"Over the whole trial, how much time was spent in an AOI? (Holmqvist 2010, Page 524)","7. Fixation, Saccade, Dwell Measures"
-Average Dwell Time  (in milliseconds),Position measure,How much time was spent in an AOI in average?,"7. Fixation, Saccade, Dwell Measures"
+Total Dwell Time,Position measure,"Over the whole trial, how much time was spent in an AOI? (Holmqvist 2010, Page 524)","7. Fixation, Saccade, Dwell Measures"
+Average Dwell Time,Position measure,How much time was spent in an AOI in average?,"7. Fixation, Saccade, Dwell Measures"
 Number of Dwells,Numerosity measure,"Over the whole trial, how many times was an AOI visited? (Holmqvist 2010, Page 561)","7. Fixation, Saccade, Dwell Measures"
 Average Number of Fixations in Dwell,Numerosity measure,The average number of fixations per AOI visit,"7. Fixation, Saccade, Dwell Measures"
 Average Number of Saccades in Dwell,Numerosity measure,The average number of saccades per AOI visit,"7. Fixation, Saccade, Dwell Measures"
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
